@@ -1,0 +1,30 @@
+<head>
+<script type="text/javascript">
+function okno_zamknij_grabski()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<textarea cols="100" rows="23">
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<script language="JavaScript">
+var x = prompt("podaj rok", " ");
+var rok_gra = parseFloat(x);
+document.write("czytany rok =" + rok_gra + "<br>");
+if (rok_gra == 1995) {
+  document.write("<p style='color:blue;font-size:4em'>Brawo, znasz rok od kiedy działa JavaScript!</p>");}
+else 
+{document.write("<p style='color:red;font-size:7em'>Źle, musisz jeszcze poczytać.</p>");}
+</script>
+</body>
+</html>
+</textarea><br><br><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_grabski()"/>
+</body>
+</html>

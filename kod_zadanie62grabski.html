@@ -1,0 +1,34 @@
+<head>
+<script type="text/javascript">
+function okno_zamknij_grabski()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<textarea cols="100" rows="23">
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var x=prompt("podaj liczbę x=","");
+var a=parseFloat(x);
+document.write("czytana liczba x="+a+"<br>");
+if(a>0)
+{document.write("czytana liczba jest większa od 0"+"<br>");}
+if(a==0)
+{document.write("czytana liczba jest równa 0"+"<br>");}
+if(a<0)
+{document.write("czytana liczba jest mniejsza od 0"+"<br>");}
+</script>
+</div>
+</body>
+</html>
+</textarea><br><br><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_grabski()"/>
+</body>
+</html>
